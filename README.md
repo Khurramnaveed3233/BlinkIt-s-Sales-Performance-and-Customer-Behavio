@@ -106,11 +106,63 @@ Insight : Focus on improving visibility and marketing for newer outlets to accel
   
 Findings :
 
-Small Outlets : 37.01 % of total sales.
-Medium Outlets : 42.27 % of total sales.
-High Outlets : 20.72 %of total sales.
+    Small Outlets : 37.01 % of total sales.
+    Medium Outlets : 42.27 % of total sales.
+    High Outlets : 20.72 %of total sales.
 
 Insight : Larger outlets contribute disproportionately to revenue, highlighting the importance of scaling operations.
+
+- **Sales by Outlet Location**
+
+Sales by Outlet Location
+
+Findings :
+
+    Tier-1 generated 336397.81 
+    Tier-2 generated 472133.03
+    Tier-3 generated 393150.64
+
+- **All Metrics by Outlet Type**
+  
+Findings :
+
+    Supermarket Type 1 : $787549.89 in total sales, average sale of $141, and X/5 average rating.
+    Supermarket Type 2 : $131477.77 in total sales, average sale of $142, and X/5 average rating.
+    Supermarket Type 3 : $130714.67 in total sales, average sale of $140, and X/5 average rating.
+    Grocery Store : $151939.15 in total sales, average sale of $140, and X/5 average rating.
+
+Insight : Supermarket Type 1 dominates sales, but grocery stores have higher ratings, suggesting better customer satisfaction.
+
+# Recommendations for Stakeholders
+
+Product Strategy :
+
+     Focus on promoting low-fat items, as they are gaining traction among health-conscious customers.
+    Invest in expanding the inventory of top-performing item types to meet customer demand.
+
+Outlet Optimization :
+
+    Prioritize scaling larger outlets, as they contribute significantly to revenue.
+    Provide additional support (e.g., marketing, staff training) to newer outlets to improve their performance.
+
+Location-Based Targeting :
+
+    Increase marketing efforts in urban areas to capitalize on high sales volumes.
+    Explore untapped opportunities in tier-2 and tier-3 cities by tailoring product offerings to local preferences.
+
+Customer Experience :
+
+    Address gaps in customer satisfaction for outlets with lower ratings by improving service quality and product availability.
+    Leverage positive feedback from grocery stores to enhance overall brand perception.
+
+Data-Driven Decision Making :
+
+    Use granular insights (e.g., fat content by outlet, sales by item type) to refine inventory management and promotional strategies.
+    Continuously monitor KPIs to track progress and adjust strategies as needed.
+
+Conclusion
+
+This analysis provides a comprehensive view of BlinkIt's sales performance and customer behavior. By implementing the recommendations outlined above, stakeholders can optimize operations, enhance customer satisfaction, and drive revenue growth. Leveraging data-driven insights will ensure sustained success in an increasingly competitive market.
 
 
 
