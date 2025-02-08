@@ -133,6 +133,12 @@ Findings :
 
 Insight : Supermarket Type 1 dominates sales, but grocery stores have higher ratings, suggesting better customer satisfaction.
 
+Key Findings
+
+- Product Trends: Low-fat items and specific categories (e.g., Dairy) drive sales.
+- Outlet Performance: Older, medium-sized outlets in Tier 3 cities outperform others.
+- Customer Satisfaction: Average ratings are moderate, indicating room for improvement.
+
 # Recommendations for Stakeholders
 
 Product Strategy :
@@ -160,9 +166,17 @@ Data-Driven Decision Making :
 - Use granular insights (e.g., fat content by outlet, sales by item type) to refine inventory management and promotional strategies.
 - Continuously monitor KPIs to track progress and adjust strategies as needed.
 
+Limitations
+
+- Data filtered for 2020 in some analyses; consider multi-year trends.
+- Ratings rounded to integers; use precise decimals for nuanced insights.
+
 Conclusion
 
 This analysis provides a comprehensive view of BlinkIt's sales performance and customer behavior. By implementing the recommendations outlined above, stakeholders can optimize operations, enhance customer satisfaction, and drive revenue growth. Leveraging data-driven insights will ensure sustained success in an increasingly competitive market.
+
+Prepared By: Khurram Naveed
+Date: 08-02-2025
 
 
 
