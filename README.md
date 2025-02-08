@@ -9,6 +9,8 @@ The analysis provides insights into key performance indicators (KPIs), granular 
 - **Total Sales**
   
       Metric : Overall revenue generated from all items sold.
-      Value : 12.02 Millions  ![1](https://github.com/user-attachments/assets/a6454f60-2f97-44c2-9711-1b302e0f12b1)
+      Value : 12.02 Millions
+
+  ![1](https://github.com/user-attachments/assets/a6454f60-2f97-44c2-9711-1b302e0f12b1)
 
 Insight : This provides a high-level view of the company's revenue generation capabilities.
