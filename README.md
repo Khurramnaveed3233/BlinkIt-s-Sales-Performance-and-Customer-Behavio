@@ -171,7 +171,8 @@ Limitations
 - Data filtered for 2020 in some analyses; consider multi-year trends.
 - Ratings rounded to integers; use precise decimals for nuanced insights.
 
-Conclusion
+
+# Conclusion
 
 This analysis provides a comprehensive view of BlinkIt's sales performance and customer behavior. By implementing the recommendations outlined above, stakeholders can optimize operations, enhance customer satisfaction, and drive revenue growth. Leveraging data-driven insights will ensure sustained success in an increasingly competitive market.
 
