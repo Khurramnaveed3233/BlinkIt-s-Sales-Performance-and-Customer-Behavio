@@ -54,10 +54,21 @@ The analysis provides insights into key performance indicators (KPIs), granular 
        from BlinkIt
    
        Output : 4
+
+   ![4](https://github.com/user-attachments/assets/748da300-e4aa-4141-9d49-7b37540fb843)
    
    Insight: Measures customer satisfaction, directly impacting repeat purchases and brand loyalty.
 
-   ![4](https://github.com/user-attachments/assets/748da300-e4aa-4141-9d49-7b37540fb843)
+# Granular Analysis
+
+ - **Total Sales by Fat Content**
+
+Findings :
+
+    Low Fat Items : Generated 83 Thousand in total sales with an average sale of 140.
+    Regular Items : Generated 46 Thousand in total sales with an average sale of 139.
+
+Insight : Low-fat items dominate sales, indicating a growing preference for healthier options among customers.
 
 
-#Granular Analysis
+
