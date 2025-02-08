@@ -10,8 +10,9 @@ The analysis provides insights into key performance indicators (KPIs), granular 
 
       Metric : Overall revenue generated from all items sold.
   
-      SELECT COUNT(*) AS Total_Rows
-      FROM BlinkIt
+      select concat(cast(sum(total_sales)/100000 as decimal( 10,2)), '' , ' Millions') as Total_SaleInMillions
+      from BlinkIt
+  
       Output : 12.02 Millions
 
      ![1](https://github.com/user-attachments/assets/a6454f60-2f97-44c2-9711-1b302e0f12b1)
@@ -21,8 +22,36 @@ The analysis provides insights into key performance indicators (KPIs), granular 
 - **Average Sales**
 
       Metric : Average revenue per sale.
-      Value : 141
+
+      select round(avg(total_sales),0) as Avg_Sale 
+      from BlinkIt
+  
+      Output : 141
   
   ![2](https://github.com/user-attachments/assets/8f4144b5-c2fa-47eb-986e-5b9139f92e19)
 
   Insight : Indicates the average transaction size, which helps in understanding customer spending patterns.
+
+- **Total Count of Items Sold**
+
+      Metric: Total number of items sold.
+
+      SELECT COUNT(*) AS NumberOfItem
+      FROM BlinkIt
+  
+      Output : 8523
+  
+      Insight: Reflects the volume of products sold, highlighting product popularity and demand.
+
+ - **Average Customer Rating**
+
+       Metric: Average rating for items sold.
+
+       select cast(avg(rating) as decimal(10,0)) as AverageRating 
+       from BlinkIt
+   
+       Output : 4
+   
+       Insight: Measures customer satisfaction, directly impacting repeat purchases and brand loyalty.
+
+#Granular Analysis
