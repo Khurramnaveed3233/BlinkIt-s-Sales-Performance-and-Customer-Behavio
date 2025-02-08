@@ -68,7 +68,49 @@ Findings :
     Low Fat Items : Generated 83 Thousand in total sales with an average sale of 140.
     Regular Items : Generated 46 Thousand in total sales with an average sale of 139.
 
+![5](https://github.com/user-attachments/assets/e5e5c7a6-9dee-405f-9942-b5249eed8acc)
+
 Insight : Low-fat items dominate sales, indicating a growing preference for healthier options among customers.
+
+ - **Total Sales by Item Type**
+
+Top 5 Item Types :
+
+    Fruits and Vegetables : 18457 in total sales.
+    Snack Foods : 18103 in total sales.
+    Frozen Foods : 14238 in total sales.
+    Household : 14238 in total sales.
+    Dairy: 10935 in total sales.
+
+Insight : Certain item types contribute significantly to revenue, suggesting opportunities for targeted marketing and promotions.
+
+- **Fat Content by Outlet for Total Sales**
+
+Findings :
+
+    Outlets in urban areas generate higher sales for low-fat items compared to rural areas.
+    Regular items are more popular in tier-2 and tier-3 cities.
+
+Insight : Tailoring product offerings based on outlet location can enhance sales.
+
+- **Total Sales by Outlet Establishment Year**
+
+Findings :
+
+    Older outlets (established before 2010) generate higher sales compared to newer outlets.
+    Newer outlets (established after 2020) show lower sales but higher growth potential.
+
+Insight : Focus on improving visibility and marketing for newer outlets to accelerate their growth.
+
+- **Percentage of Sales by Outlet Size**
+  
+Findings :
+
+Small Outlets : 37.01 % of total sales.
+Medium Outlets : 42.27 % of total sales.
+High Outlets : 20.72 %of total sales.
+
+Insight : Larger outlets contribute disproportionately to revenue, highlighting the importance of scaling operations.
 
 
 
