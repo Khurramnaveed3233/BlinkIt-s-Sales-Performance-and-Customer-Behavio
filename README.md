@@ -142,23 +142,23 @@ Product Strategy :
 
 Outlet Optimization :
 
-    Prioritize scaling larger outlets, as they contribute significantly to revenue.
-    Provide additional support (e.g., marketing, staff training) to newer outlets to improve their performance.
+- Prioritize scaling larger outlets, as they contribute significantly to revenue.
+- Provide additional support (e.g., marketing, staff training) to newer outlets to improve their performance.
 
 Location-Based Targeting :
 
-    Increase marketing efforts in urban areas to capitalize on high sales volumes.
-    Explore untapped opportunities in tier-2 and tier-3 cities by tailoring product offerings to local preferences.
+- Increase marketing efforts in urban areas to capitalize on high sales volumes.
+- Explore untapped opportunities in tier-2 and tier-3 cities by tailoring product offerings to local preferences.
 
 Customer Experience :
 
-    Address gaps in customer satisfaction for outlets with lower ratings by improving service quality and product availability.
-    Leverage positive feedback from grocery stores to enhance overall brand perception.
+- Address gaps in customer satisfaction for outlets with lower ratings by improving service quality and product availability.
+- Leverage positive feedback from grocery stores to enhance overall brand perception.
 
 Data-Driven Decision Making :
 
-    Use granular insights (e.g., fat content by outlet, sales by item type) to refine inventory management and promotional strategies.
-    Continuously monitor KPIs to track progress and adjust strategies as needed.
+- Use granular insights (e.g., fat content by outlet, sales by item type) to refine inventory management and promotional strategies.
+- Continuously monitor KPIs to track progress and adjust strategies as needed.
 
 Conclusion
 
