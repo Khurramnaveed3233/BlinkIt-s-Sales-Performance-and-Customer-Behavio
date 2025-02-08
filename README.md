@@ -13,4 +13,13 @@ The analysis provides insights into key performance indicators (KPIs), granular 
 
   ![1](https://github.com/user-attachments/assets/a6454f60-2f97-44c2-9711-1b302e0f12b1)
 
-Insight : This provides a high-level view of the company's revenue generation capabilities.
+  Insight : This provides a high-level view of the company's revenue generation capabilities.
+
+- **Average Sales**
+
+      Metric : Average revenue per sale.
+      Value : 141
+  
+  ![2](https://github.com/user-attachments/assets/8f4144b5-c2fa-47eb-986e-5b9139f92e19)
+
+  Insight : Indicates the average transaction size, which helps in understanding customer spending patterns.
