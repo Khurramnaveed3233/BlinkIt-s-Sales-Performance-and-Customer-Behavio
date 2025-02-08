@@ -177,6 +177,7 @@ Limitations
 This analysis provides a comprehensive view of BlinkIt's sales performance and customer behavior. By implementing the recommendations outlined above, stakeholders can optimize operations, enhance customer satisfaction, and drive revenue growth. Leveraging data-driven insights will ensure sustained success in an increasingly competitive market.
 
 Prepared By: Khurram Naveed
+
 Date: 08-02-2025
 
 
