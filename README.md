@@ -137,8 +137,8 @@ Insight : Supermarket Type 1 dominates sales, but grocery stores have higher rat
 
 Product Strategy :
 
-           - Focus on promoting low-fat items, as they are gaining traction among health-conscious customers.
-           - Invest in expanding the inventory of top-performing item types to meet customer demand.
+- Focus on promoting low-fat items, as they are gaining traction among health-conscious customers.
+- Invest in expanding the inventory of top-performing item types to meet customer demand.
 
 Outlet Optimization :
 
