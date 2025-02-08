@@ -40,8 +40,11 @@ The analysis provides insights into key performance indicators (KPIs), granular 
       FROM BlinkIt
   
       Output : 8523
+
   
-      Insight: Reflects the volume of products sold, highlighting product popularity and demand.
+  ![3](https://github.com/user-attachments/assets/5c7a0ca6-f08b-4528-9b47-32a1bba63f54)
+
+  Insight: Reflects the volume of products sold, highlighting product popularity and demand.
 
  - **Average Customer Rating**
 
@@ -52,6 +55,9 @@ The analysis provides insights into key performance indicators (KPIs), granular 
    
        Output : 4
    
-       Insight: Measures customer satisfaction, directly impacting repeat purchases and brand loyalty.
+   Insight: Measures customer satisfaction, directly impacting repeat purchases and brand loyalty.
+
+   ![4](https://github.com/user-attachments/assets/748da300-e4aa-4141-9d49-7b37540fb843)
+
 
 #Granular Analysis
