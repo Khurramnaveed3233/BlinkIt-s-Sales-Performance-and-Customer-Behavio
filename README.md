@@ -1,5 +1,6 @@
-# BlinkIt-s-Sales-Performance-and-Customer-Behaviour Analysis
+![converted-image (1)](https://github.com/user-attachments/assets/5c5c8bc2-6706-4c50-b5de-7c51c6a0d533)# BlinkIt-s-Sales-Performance-and-Customer-Behaviour Analysis
 This project focuses on analyzing the sales and performance metrics of the BlinkIt database using SQL Server.
+
 
 ![Uploading converted-image (1).jpg…]()
 
