@@ -2,7 +2,7 @@
 
 ![converted-image (1)](https://github.com/user-attachments/assets/5c5c8bc2-6706-4c50-b5de-7c51c6a0d533)
 
-> *Portfolio Project*  
+**Portfolio Project By**  
 > *By Khurram Naveed – Data Analyst & Storyteller*  
 
 ---
