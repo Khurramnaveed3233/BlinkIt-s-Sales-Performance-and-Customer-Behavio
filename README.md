@@ -3,8 +3,7 @@
 ![converted-image (1)](https://github.com/user-attachments/assets/5c5c8bc2-6706-4c50-b5de-7c51c6a0d533)
 
 > *Portfolio Project*  
-> *By [Your Name] – Data Analyst & Storyteller*  
-> *1 September 2025*
+> *By Khurram Naveed – Data Analyst & Storyteller*  
 
 ---
 
@@ -159,4 +158,9 @@ Key Fields
    
    Insight: Measures customer satisfaction, directly impacting repeat purchases and brand loyalty.
 
+**Closing Note**
 
+- Data shows the problem is not demand, but assortment discipline.
+- Execute the 90-day OKRs and we turn ₹36.8 M of sales into ₹2.9 M extra profit—without spending a rupee on new traffic.
+
+— Khurram Naveed , Data Analyst
