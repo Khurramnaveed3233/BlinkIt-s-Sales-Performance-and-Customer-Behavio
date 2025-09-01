@@ -163,4 +163,4 @@ Key Fields
 - Data shows the problem is not demand, but assortment discipline.
 - Execute the 90-day OKRs and we turn ₹36.8 M of sales into ₹2.9 M extra profit—without spending a rupee on new traffic.
 
-— Khurram Naveed , Data Analyst
+**Khurram Naveed , Data Analyst**
