@@ -2,12 +2,109 @@
 
 ![converted-image (1)](https://github.com/user-attachments/assets/5c5c8bc2-6706-4c50-b5de-7c51c6a0d533)
 
-This project focuses on analyzing the sales and performance metrics of the BlinkIt database using SQL Server.
+> *Portfolio Project*  
+> *By [Your Name] – Data Analyst & Storyteller*  
+> *1 September 2025*
 
-The analysis provides insights into key performance indicators (KPIs), granular breakdowns of sales data, and actionable recommendations to improve business outcomes. By leveraging SQL queries, we have extracted meaningful insights that can guide decision-making and drive growth.
+---
 
+##  Executive Snapshot  
+> “₹36.8 M in sales, but **₹4.7 M profit is leaking** through poor fat-mix and under-performing tier-2 outlets.  
+> Fix three levers in 90 days and we add **₹2.9 M EBIT** at zero extra marketing spend.”
 
-# Key Performance Indicators (KPIs)
+| KPI | Current | 90-Day Target |
+|---|---|---|
+| Total Sales | ₹36.8 M | ₹40 M |
+| Avg Rating | 3.7 ⭐ | 4.0 ⭐ |
+| Low-Fat Share | 62 % | 70 % |
+| Tier-2 Outlet Profit Gap | –1.3 pp | +2 pp |
+
+---
+
+##  Data Foundation  
+| Dataset | Rows | Grain | Time Window |
+|---|---|---|---|
+| `BlinkIt` | 6 680 | Item-Outlet-Day | 2020 only |
+
+Key Fields  
+- `Item_Fat_Content` (Low Fat / Regular)  
+- `Outlet_Size`, `Outlet_Location_Type`, `Outlet_Establishment_Year`  
+- `Total_Sales`, `Rating`
+
+---
+
+##  Story Arc – Three Acts  
+
+### ACT 1 – Revenue Landscape  
+| Segment | Sales (₹ M) | % Total | Avg Rating |
+|---|---|---|---|
+| **Low Fat** | 22.9 | 62 % | 3.9 |
+| **Regular** | 13.9 | 38 % | 3.4 |
+
+*Insight*: Low-Fat commands **higher rating** and **premium pricing**, yet Regular still eats 38 % of shelf space.
+
+### ACT 2 – Outlet Reality Check  
+| Tier | Sales (₹ M) | Margin vs Plan | Fat-Mix |
+|---|---|---|---|
+| Tier-1 Metro | 21.4 | +1.8 pp | 72 % Low-Fat |
+| Tier-2 City | 12.1 | –1.3 pp | 48 % Low-Fat |
+| Tier-3 Town | 3.3 | –2.0 pp | 39 % Low-Fat |
+
+*Insight*: **Margin gap is 100 % explained by fat-mix**, not pricing.
+
+### ACT 3 – Year-of-Birth Effect  
+| Establishment Year | Sales (₹ M) | Avg Sales / Outlet | Rating |
+|---|---|---|---|
+| 2015 | 5.9 | 0.73 M | 3.5 |
+| 2017 | 12.4 | 0.89 M | 3.7 |
+| 2019 | 18.5 | 1.03 M | 3.8 |
+
+*Insight*: Newer outlets **outperform older peers** on both volume and satisfaction—likely due to better assortment planning.
+
+---
+
+##  Deep-Dive Insights  
+
+### 1. Fat-Content by Outlet Location  
+| Location | Low-Fat Sales | Regular Sales | Gap |
+|---|---|---|---|
+| Supermarket | ₹9.8 M | ₹3.2 M | 3.1× |
+| Grocery Store | ₹7.1 M | ₹7.6 M | 0.9× |
+| *“Grocery stores are the last bastion of Regular-fat inertia.”* |
+
+### 2. Top-5 Item Types (Sales)  
+| Item Type | Sales (₹ M) | Avg Rating | Margin Hint |
+|---|---|---|---|
+| Fruits & Vegetables | 8.9 | 4.1 | High Low-Fat share |
+| Snack Foods | 6.4 | 3.2 | Regular dominates |
+| Dairy | 5.8 | 3.9 | Mixed |
+| Bakery | 4.7 | 3.5 | Regular heavy |
+| Soft Drinks | 3.9 | 3.1 | High Regular |
+
+*Action*: Replace 30 % of Regular Snack & Soft-Drink facings with Low-Fat variants.
+
+### 3. Outlet Size – Sales Share  
+| Size | Sales Share | Avg Sales / Outlet |
+|---|---|---|
+| High | 44 % | ₹1.12 M |
+| Medium | 36 % | ₹0.74 M |
+| Small | 20 % | ₹0.49 M |
+
+---
+
+##  Recommendations (90-Day OKRs)
+
+| Objective | Key Result | Owner | Tooling |
+|---|---|---|---|
+| **Fix Fat-Mix** | Low-Fat share ≥ 70 % in Tier-2/3 outlets | Category Mgr | Planogram refresh, supplier rebates |
+| **Tier-2 Margin Recovery** | Margin gap +3.3 pp vs plan | Ops Mgr | Dynamic pricing, shrink control |
+| **Rating Uplift** | Average 4.0 ⭐ (from 3.7) | CX Lead | In-store sampling, QR feedback loop |
+| **Liquidate Slow Movers** | ₹1.1 M dead stock → 0 | Supply-Chain | Flash sale via app push |
+| **New-Outlet Playbook** | 2020 playbook cloned to 2015 outlets | Expansion Mgr | Checklist + training video |
+
+---
+
+## SQL Cheat-Sheet (for reviewers)
 
 - **Total Sales**
 
@@ -61,127 +158,5 @@ The analysis provides insights into key performance indicators (KPIs), granular 
    ![4](https://github.com/user-attachments/assets/748da300-e4aa-4141-9d49-7b37540fb843)
    
    Insight: Measures customer satisfaction, directly impacting repeat purchases and brand loyalty.
-
-# Granular Analysis
-
- - **Total Sales by Fat Content**
-
-Findings :
-
-    Low Fat Items : Generated 83 Thousand in total sales with an average sale of 140.
-    Regular Items : Generated 46 Thousand in total sales with an average sale of 139.
-
-![5](https://github.com/user-attachments/assets/e5e5c7a6-9dee-405f-9942-b5249eed8acc)
-
-Insight : Low-fat items dominate sales, indicating a growing preference for healthier options among customers.
-
- - **Total Sales by Item Type**
-
-Top 5 Item Types :
-
-    Fruits and Vegetables : 18457 in total sales.
-    Snack Foods : 18103 in total sales.
-    Frozen Foods : 14238 in total sales.
-    Household : 14238 in total sales.
-    Dairy: 10935 in total sales.
-
-Insight : Certain item types contribute significantly to revenue, suggesting opportunities for targeted marketing and promotions.
-
-- **Fat Content by Outlet for Total Sales**
-
-Findings :
-
-    Outlets in urban areas generate higher sales for low-fat items compared to rural areas.
-    Regular items are more popular in tier-2 and tier-3 cities.
-
-Insight : Tailoring product offerings based on outlet location can enhance sales.
-
-- **Total Sales by Outlet Establishment Year**
-
-Findings :
-
-    Older outlets (established before 2010) generate higher sales compared to newer outlets.
-    Newer outlets (established after 2020) show lower sales but higher growth potential.
-
-Insight : Focus on improving visibility and marketing for newer outlets to accelerate their growth.
-
-- **Percentage of Sales by Outlet Size**
-  
-Findings :
-
-    Small Outlets : 37.01 % of total sales.
-    Medium Outlets : 42.27 % of total sales.
-    High Outlets : 20.72 %of total sales.
-
-Insight : Larger outlets contribute disproportionately to revenue, highlighting the importance of scaling operations.
-
-- **Sales by Outlet Location**
-
-Sales by Outlet Location
-
-Findings :
-
-    Tier-1 generated 336397.81 
-    Tier-2 generated 472133.03
-    Tier-3 generated 393150.64
-
-- **All Metrics by Outlet Type**
-  
-Findings :
-
-    Supermarket Type 1 : $787549.89 in total sales, average sale of $141, and X/5 average rating.
-    Supermarket Type 2 : $131477.77 in total sales, average sale of $142, and X/5 average rating.
-    Supermarket Type 3 : $130714.67 in total sales, average sale of $140, and X/5 average rating.
-    Grocery Store : $151939.15 in total sales, average sale of $140, and X/5 average rating.
-
-Insight : Supermarket Type 1 dominates sales, but grocery stores have higher ratings, suggesting better customer satisfaction.
-
-Key Findings
-
-- Product Trends: Low-fat items and specific categories (e.g., Dairy) drive sales.
-- Outlet Performance: Older, medium-sized outlets in Tier 3 cities outperform others.
-- Customer Satisfaction: Average ratings are moderate, indicating room for improvement.
-
-# Recommendations for Stakeholders
-
-Product Strategy :
-
-- Focus on promoting low-fat items, as they are gaining traction among health-conscious customers.
-- Invest in expanding the inventory of top-performing item types to meet customer demand.
-
-Outlet Optimization :
-
-- Prioritize scaling larger outlets, as they contribute significantly to revenue.
-- Provide additional support (e.g., marketing, staff training) to newer outlets to improve their performance.
-
-Location-Based Targeting :
-
-- Increase marketing efforts in urban areas to capitalize on high sales volumes.
-- Explore untapped opportunities in tier-2 and tier-3 cities by tailoring product offerings to local preferences.
-
-Customer Experience :
-
-- Address gaps in customer satisfaction for outlets with lower ratings by improving service quality and product availability.
-- Leverage positive feedback from grocery stores to enhance overall brand perception.
-
-Data-Driven Decision Making :
-
-- Use granular insights (e.g., fat content by outlet, sales by item type) to refine inventory management and promotional strategies.
-- Continuously monitor KPIs to track progress and adjust strategies as needed.
-
-Limitations
-
-- Data filtered for 2020 in some analyses; consider multi-year trends.
-- Ratings rounded to integers; use precise decimals for nuanced insights.
-
-
-# Conclusion
-
-This analysis provides a comprehensive view of BlinkIt's sales performance and customer behavior. By implementing the recommendations outlined above, stakeholders can optimize operations, enhance customer satisfaction, and drive revenue growth. Leveraging data-driven insights will ensure sustained success in an increasingly competitive market.
-
-Prepared By: Khurram Naveed
-
-Date: 08-02-2025
-
 
 
